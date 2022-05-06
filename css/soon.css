@@ -1,0 +1,20 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/34/16/fc/3416fc4113b69a0bf1cc75a772c4b5c4.gif);
+    background-repeat: no-repeat;
+}
+
+* {
+    font-family: 'Ubuntu';
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 50px;
+}
+
+button {
+    background-color: black;
+    border: 2px solid blueviolet;
+}

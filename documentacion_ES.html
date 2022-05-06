@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="IMG/Icon.png">
+    <link rel="stylesheet" href="css/documentacion.css">
+    <title>Documentación | Raxtech</title>
+</head>
+<body>
+    <header>
+        <h1>Documentación</h1>
+        <br>
+        <a class="idioma" href="documentacion_EN.html">Ingelesa / Ingles / English</a>
+        <br>
+        <br>
+        <a class="idioma" href="documentacion_EUS.html">Euskera / Vasco / Basque</a>
+    </header>
+    <section class="all">
+        <article>
+            <h3>Raxtech</h3>
+            <a href="index.html"><img class="icon" src="img/Icon.png"></a>
+
+        </article>
+        <br>
+        <article>
+            <h1>Indice</h1>
+            <br>
+            <ol>
+                <li>Auditoría Wifi
+                    <br>
+                    1.1 Untangle y Kali Linux
+                </li>
+                <li>
+                    Raid
+                </li>
+            </ol>
+        </article>
+        <br> 
+        <hr>
+        <br>
+        <article>
+            <h1>1. Auditoria Wifi</h1>
+            <img class="img_between" src="img/untangle.png">
+            <img class="img_between" src="img/kali.jpg">
+            <br>
+            <h2>Untangle</h2>
+            <p>
+                'Untangle', lo que hace este sistema operativo es implementar seguridad en red y monitorizar la red.
+                <br>
+                Una vez descargado el archivo .ISO, usamos el programa '<strong>Balena Etcher</strong>' y con un USB lo conectamos a un PC sin OS.
+                <br>
+                <br>
+                <a class="untangle" href="https://wiki.untangle.com/index.php/NG_Firewall_Downloads">
+                    Enlace para descargar Untangle
+                </a>
+                <img class="img_balena" src="img/balenaetcher-vector-logo.png">
+            </p>
+            <br>
+            <h2>Kali Linux</h2>
+            <br>
+            <p>
+                En <strong>Kali Linux</strong>,lo primero que hicimos fue instalar el sistema operativo 
+                '<strong>Kali Linux</strong>' en 2 portatiles.
+                <br>
+                Después abrimos un programa que viene integrado con este OS llamado 
+                <strong>'Wifite'</strong>. 
+                <br>
+                <br>
+                Como se puede observar en la imagen, lo que nos dice al intentar atacar con este programa a nuestro wifi,
+                dice que es imposible de atacar, ya que en la configuracion del router habilitamos el firewall
+                y el anti-DDOS.
+            </p>
+            <br>
+            <img src="img/wifite1.png">
+            <img src="img/wifite2.png">
+        </article>
+        <br>
+        <hr>
+        <br>
+        <article>
+            <h1>Raid</h1>
+            <p>
+                Para hacer el raid fue muy simple, hicimos una máquina virtual en VirtualBox.
+                Dentro de esta máquina, metimos 3 discos para hacer el Raid 1.
+                <br>
+                El Raid 1 lo hicimos gracias a la documentación de Iker.
+            </p>
+            <img src="img/lsblk.png">
+            <p>Este comando, (lsblk) en terminal, lo que hace es dar información sobre nuestros dispositivos
+                .</p>
+        </article>
+    </section>
+    <footer>
+        <img class="img2" src="img/Icon.png">
+        <p>©2022 Raxtech</p>
+    </footer>
+</body>
+</html>

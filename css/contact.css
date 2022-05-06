@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/wp2864012.gif);
+    background-repeat: no-repeat;
+}
+
+a {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+h1 {
+    color: white;
+}
+
+* {
+    font-family: 'Ubuntu';
+    text-align: center;
+}
+
+.mailto {
+    margin-left: 500px;
+}
